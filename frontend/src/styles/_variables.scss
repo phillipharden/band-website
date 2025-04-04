@@ -1,0 +1,55 @@
+// Core Colors (HEX)
+$primary-color: #576ca8ff; // Previously $true-blue
+$secondary-color: #548c2fff; // Previously $forest-green
+$text-color: #ede7d9ff; // Previously $alabaster
+$background-color: #2e282aff; // Previously $raisin-black
+$accent-color: #c84630ff; // Previously $jasper
+
+// Optional HSL format if needed
+$primary-color-hsl: hsla(224, 32%, 50%, 1);
+$secondary-color-hsl: hsla(96, 50%, 37%, 1);
+$background-color-hsl: hsla(42, 36%, 89%, 1);
+$text-color-hsl: hsla(340, 7%, 17%, 1);
+$accent-color-hsl: hsla(9, 61%, 49%, 1);
+
+// Optional RGB format if needed
+$primary-color-rgb: rgba(87, 108, 168, 1);
+$secondary-color-rgb: rgba(84, 140, 47, 1);
+$background-color-rgb: rgba(237, 231, 217, 1);
+$text-color-rgb: rgba(46, 40, 42, 1);
+$accent-color-rgb: rgba(200, 70, 48, 1);
+
+// Gradients
+$gradient-top: linear-gradient(0deg, $primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+$gradient-right: linear-gradient(90deg, $primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+$gradient-bottom: linear-gradient(180deg, $primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+$gradient-left: linear-gradient(270deg, $primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+$gradient-top-right: linear-gradient(45deg, $primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+$gradient-bottom-right: linear-gradient(135deg, $primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+$gradient-top-left: linear-gradient(225deg, $primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+$gradient-bottom-left: linear-gradient(315deg, $primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+$gradient-radial: radial-gradient($primary-color, $secondary-color, $background-color, $text-color, $accent-color);
+
+
+
+// $main-font:  'Ubuntu', sans-serif;
+$mont-font: 'Montserrat', sans-serif;
+$header-font: 'Oswald', sans-serif;
+$main-font: 'Montserrat', sans-serif;
+$brand-font: 'Shadows Into Light', cursive;
+$accent-font: 'Caprasimo', cursive;
+$spacing: 15px;
+$border-width: 1px;
+// $brand-font: 'Shadows Into Light', cursive;
+$animate-time: 0.5s;
+$animate-time-delay: 0.8s;
+$animate-time-delay-extra: 1s;
+
+
+/* SPACING  */
+/* 1em = 16px */
+//^ BREAKPOINTS
+$spacing-sm: 37.5em;
+$spacing-md: 48em;
+$spacing-lg: 64em;
+$spacing-xl: 75em;

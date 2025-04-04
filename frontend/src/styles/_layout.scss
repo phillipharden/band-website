@@ -1,0 +1,103 @@
+.app {
+    overflow: hidden !important; // This take away the scroll bar background on the right side of the mobile screen
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+
+    @include xs {
+        width: 95vw;
+    }
+
+    @include sm {
+        width: 85vw;
+    }
+}
+
+.border-divider {
+    padding-top: 20px;
+    border-bottom: 1px $accent-color solid;
+    width: 200px;
+    margin: auto;
+}
+
+hr.rounded {
+    border-top: 8px solid $accent-color;
+    border-radius: 5px;
+    width: 50px;
+    margin: 20px auto;
+}
+
+// Wave Divider
+.custom-shape-divider-bottom {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(136% + 1.3px);
+    transform: rotateY(180deg);
+
+    @include xs {
+        height: 55px;
+    }
+
+    @include sm {
+        height: 65px;
+    }
+
+    @include md {
+        height: 75px;
+    }
+
+    @include lg {
+        height: 85px;
+    }
+
+    @include xl {
+        height: 105px;
+    }
+}
+
+.custom-shape-divider-bottom .shape-fill {
+    fill: $text-color;
+}
+
+
+
+
+.test {
+    @include xs {
+        // 0px
+        color: red;
+    }
+
+    @include sm {
+        // 480px
+        color: blue;
+    }
+
+    @include md {
+        // 720px
+        color: green;
+    }
+
+    @include lg {
+        // 960px
+        color: orange;
+    }
+
+    @include xl {
+        // 1200px
+        color: yellow;
+    }
+}

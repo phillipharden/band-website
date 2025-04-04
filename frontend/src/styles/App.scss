@@ -1,0 +1,13 @@
+@import "reset";
+@import "variables";
+@import "breakpoints"; 
+@import "mixins"; 
+@import "typography"; 
+@import "layout";
+@import "header";
+@import "footer";
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+}
